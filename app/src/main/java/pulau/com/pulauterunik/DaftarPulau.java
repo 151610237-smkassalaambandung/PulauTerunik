@@ -32,5 +32,85 @@ public class DaftarPulau extends AppCompatActivity {
                 startActivityForResult(myIntent, 0);
             }
         });
+
+        Button huva = (Button) findViewById(R.id.Button3);
+        huva.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), PulauHuvahendhoo.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button vul = (Button) findViewById(R.id.Button4);
+        vul.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), Vulcan.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button lum = (Button) findViewById(R.id.Button5);
+        lum.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), PulauLumbaLumba.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button Snoopy = (Button) findViewById(R.id.Button6);
+        Snoopy.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), PulauSnoopy.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button smiley = (Button) findViewById(R.id.Button7);
+        smiley.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), PulauSemiley.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button palm = (Button) findViewById(R.id.Button8);
+        palm.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), PulauPalm.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button wor = (Button) findViewById(R.id.Button9);
+        wor.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), PulauWortel.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button mata = (Button) findViewById(R.id.Button10);
+        mata.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), PulauMata.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
 }

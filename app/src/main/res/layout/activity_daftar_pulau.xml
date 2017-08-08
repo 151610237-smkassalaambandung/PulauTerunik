@@ -60,6 +60,85 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="30dp" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button3"
+            android:text="Pulau Huvahenddoo"
+            android:layout_below="@+id/Button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button4"
+            android:text="Pulau Vulcan"
+            android:layout_below="@+id/Button3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button5"
+            android:text="Pulau Lumba-Lumba"
+            android:layout_below="@+id/Button4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button6"
+            android:text="Pulau Snoopy"
+            android:layout_below="@+id/Button5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button7"
+            android:text="Pulau Smiley"
+            android:layout_below="@+id/Button6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="11dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button8"
+            android:text="Pulau Palem"
+            android:layout_below="@+id/Button7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button9"
+            android:text="Pulau Berbentuk Wortel"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/Button8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button10"
+            android:text="Pulau Berbentuk Bola Mata"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/Button9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
     </RelativeLayout>
 
 </ScrollView>

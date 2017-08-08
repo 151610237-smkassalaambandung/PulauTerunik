@@ -18,7 +18,15 @@
         <activity android:name=".PulauIsabela" />
         <activity android:name=".DaftarPulau" />
         <activity android:name=".Profile" />
-        <activity android:name=".PulauLove"></activity>
+        <activity android:name=".PulauLove" />
+        <activity android:name=".PulauLumbaLumba" />
+        <activity android:name=".PulauSemiley" />
+        <activity android:name=".PulauSnoopy" />
+        <activity android:name=".PulauHuvahendhoo" />
+        <activity android:name=".Vulcan" />
+        <activity android:name=".PulauPalm" />
+        <activity android:name=".PulauWortel" />
+        <activity android:name=".PulauMata"></activity>
     </application>
 
 </manifest>
